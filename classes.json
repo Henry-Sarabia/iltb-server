@@ -1,0 +1,49 @@
+[
+    {
+        "name": "art",
+        "format": "<article> <material> <base> <verb> <article> <content>",
+        "example": "<an> <ironwood> <statue> <crafted in the likeness of> <an> <eagle>",
+        "verb":[
+            "crafted in the likeness of",
+            "made to resemble",
+            "built to look like",
+            "designed like",
+            "formed like",
+            "shaped as",
+            "shaped like",
+            "resembling"
+        ]
+    },
+    {
+        "name": "container",
+        "format": "<article> <material> <base> <verb> <content>",
+        "example": "<a> <calf leather> <wineskin> <half full of> <mulled ale>",
+        "verb":[
+            "filled with",
+            "full of",
+            "almost filled with",
+            "almost full of",
+            "half full of",
+            "half filled with",
+            "containing",
+            "barely containing",
+            "nearly rid of",
+            "faintly smelling of",
+            "faintly smelling like"
+        ]
+    },
+    {
+        "name": "clothing",
+        "format": "<article> <material> <base> <verb> <content>",
+        "example": "<a> <hempen cloth> <sash> <dyed> <rose red>",
+        "verb":[
+            "deeply dyed",
+            "completely dyed",
+            "half dyed",
+            "faintly dyed",
+            "deeply colored",
+            "half colored",
+            "faintly colored"
+        ]
+    }
+]

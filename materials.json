@@ -1,0 +1,146 @@
+[
+    {
+        "name": "wood",
+        "types":[
+            "ash wood",
+            "bamboo wood",
+            "birch wood",
+            "cedar wood",
+            "cherry wood",
+            "corkwood",
+            "elm wood",
+            "eucalyptus wood",
+            "fir wood",
+            "ironwood",
+            "mahogany wood",
+            "maple wood",
+            "oak wood",
+            "pine wood",
+            "rosewood",
+            "sandalwood",
+            "spruce wood",
+            "walnut wood"
+        ]
+    },
+    {
+        "name": "base metal",
+        "types":[
+            "black iron",
+            "steel",
+            "copper",
+            "bronze",
+            "brass",
+            "pig iron",
+            "cast iron",
+            "lead",
+            "tin"
+        ]
+    },
+    {
+        "name": "precious metal",
+        "types":[
+            "gold",
+            "platinum",
+            "silver",
+            "copper",
+            "rose gold",
+            "electrum",
+            "white gold"
+        ]
+    },
+    {
+        "name": "stone",
+        "types":[
+            "granite",
+            "marble",
+            "alabaster",
+            "basalt",
+            "slate",
+            "sandstone",
+            "limestone",
+            "diorite",
+            "quartz",
+            "quartzite",
+            "obsidian",
+            "onyx",
+            "soapstone",
+            "serpentinite"
+        ]
+    },
+    {
+        "name": "cloth",
+        "types":[
+            "cotton",
+            "hempen cloth",
+            "linen",
+            "wool",
+            "cashmere",
+            "felt cloth",
+            "ramie cloth",
+            "flannel cloth",
+            "silk"
+        ]
+    },
+    {
+        "name": "gem",
+        "types":[
+            "agate",
+            "alexandrite",
+            "amazonite",
+            "amber",
+            "amethyst",
+            "aquamarine",
+            "azurite",
+            "bloodstone",
+            "citrine",
+            "diamond",
+            "emerald",
+            "garnet",
+            "jade",
+            "jet",
+            "lapis lazuli",
+            "malachite",
+            "moonstone",
+            "obsidian",
+            "onyx",
+            "opalite",
+            "pearl",
+            "peridot",
+            "quartz",
+            "rose quartz",
+            "ruby",
+            "sapphire",
+            "serpentine",
+            "sunstone",
+            "tiger eye",
+            "topaz",
+            "tourmaline",
+            "turquoise",
+            "zircon"
+        ]
+    },
+    {
+        "name": "leather",
+        "types":[
+            "calf leather",
+            "deer leather",
+            "crocodile leather",
+            "alligator leather",
+            "buffalo leather",
+            "stingray leather",
+            "shark leather"
+        ]
+    },
+    {
+        "name": "skin",
+        "types":[
+            "calfskin",
+            "deerskin",
+            "pig skin",
+            "lamb skin",
+            "snake skin",
+            "elk skin",
+            "buckskin"
+        ]
+    }
+]
