@@ -18,11 +18,6 @@ var (
 	factory = &iltb.Factory{}
 )
 
-// Payload contains an item as JSON data.
-type Payload struct {
-	Item string `json:"item"`
-}
-
 func init() {
 	var err error
 	factory, err = iltb.FromFiles("recipes.json", "materials.json", "contents.json", "classes.json")
@@ -61,7 +56,7 @@ func itemHandler(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	render.JSON(w, r, Payload{Item: it})
+	render.JSON(w, r, it)
 }
 
 // getPort returns the port from the $PORT environment variable as a string.

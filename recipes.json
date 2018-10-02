@@ -3,6 +3,7 @@
     {
         "base": "statue",
         "class": "art",
+        "value": 10,
         "materials":[
             "stone",
             "gem",
@@ -17,6 +18,7 @@
     {
         "base": "doll",
         "class": "art",
+        "value": 1,
         "materials":[
             "wood",
             "cloth"
@@ -29,6 +31,7 @@
     {
         "base": "wineskin",
         "class": "container",
+        "value": 0.5,
         "materials":[
             "leather",
             "skin"
@@ -40,6 +43,7 @@
     {
         "base": "waterskin",
         "class": "container",
+        "value": 0.5,
         "materials":[
             "leather",
             "skin"
@@ -51,6 +55,7 @@
     {
         "base": "flask",
         "class": "container",
+        "value": 1,
         "materials":[
             "leather",
             "base metal",

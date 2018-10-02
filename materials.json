@@ -1,6 +1,7 @@
 [
     {
         "name": "wood",
+        "multiplier": 1,
         "types":[
             "ash wood",
             "bamboo wood",
@@ -24,6 +25,7 @@
     },
     {
         "name": "base metal",
+        "multiplier": 5,
         "types":[
             "black iron",
             "steel",
@@ -38,6 +40,7 @@
     },
     {
         "name": "precious metal",
+        "multiplier": 10,
         "types":[
             "gold",
             "platinum",
@@ -50,6 +53,7 @@
     },
     {
         "name": "stone",
+        "multiplier": 3,
         "types":[
             "granite",
             "marble",
@@ -69,6 +73,7 @@
     },
     {
         "name": "cloth",
+        "multiplier": 2,
         "types":[
             "cotton",
             "hempen cloth",
@@ -83,6 +88,7 @@
     },
     {
         "name": "gem",
+        "multiplier": 15,
         "types":[
             "agate",
             "alexandrite",
@@ -121,6 +127,7 @@
     },
     {
         "name": "leather",
+        "multiplier": 3,
         "types":[
             "calf leather",
             "deer leather",
@@ -133,6 +140,7 @@
     },
     {
         "name": "skin",
+        "multiplier": 3,
         "types":[
             "calfskin",
             "deerskin",
