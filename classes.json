@@ -1,9 +1,9 @@
 [
     {
         "name": "art",
-        "format": "<article> <material> <base> <verb> <article> <content>",
+        "format": "<article> <quality> <material> <name> <verb> <article> <detail>",
         "example": "<an> <ironwood> <statue> <crafted in the likeness of> <an> <eagle>",
-        "verb":[
+        "verb_variants":[
             "crafted in the likeness of",
             "made to resemble",
             "built to look like",
@@ -15,10 +15,10 @@
         ]
     },
     {
-        "name": "container",
-        "format": "<article> <material> <base> <verb> <content>",
+        "name": "liquid container",
+        "format": "<article> <quality> <material> <name> <verb> <detail>",
         "example": "<a> <calf leather> <wineskin> <half full of> <mulled ale>",
-        "verb":[
+        "verb_variants":[
             "filled with",
             "full of",
             "almost filled with",
@@ -33,17 +33,16 @@
         ]
     },
     {
-        "name": "clothing",
-        "format": "<article> <material> <base> <verb> <content>",
-        "example": "<a> <hempen cloth> <sash> <dyed> <rose red>",
-        "verb":[
-            "deeply dyed",
-            "completely dyed",
-            "half dyed",
-            "faintly dyed",
-            "deeply colored",
-            "half colored",
-            "faintly colored"
+        "name": "jewelry",
+        "format": "<article> <quality> <material> <name> <verb> <detail>",
+        "example": "<a> <rose gold> <wedding ring> <adorned with> <elven engravings>",
+        "verb_variants":[
+            "adorned with",
+            "designed with",
+            "crafted with",
+            "with hints of",
+            "embellished with",
+            "decorated with"
         ]
     }
 ]

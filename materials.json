@@ -1,8 +1,14 @@
 [
     {
         "name": "wood",
-        "multiplier": 1,
-        "types":[
+        "value_factor": 1,
+        "weight_factor": 3,
+        "modifiers":[
+            "quality",
+            "wear",
+            "organic"
+        ],
+        "variants":[
             "ash wood",
             "bamboo wood",
             "birch wood",
@@ -25,8 +31,14 @@
     },
     {
         "name": "base metal",
-        "multiplier": 5,
-        "types":[
+        "value_factor": 5,
+        "weight_factor": 10,
+        "modifiers":[
+            "quality",
+            "wear",
+            "metal"
+        ],
+        "variants":[
             "black iron",
             "steel",
             "copper",
@@ -40,8 +52,14 @@
     },
     {
         "name": "precious metal",
-        "multiplier": 10,
-        "types":[
+        "value_factor": 10,
+        "weight_factor": 8,
+        "modifiers":[
+            "quality",
+            "wear",
+            "metal"
+        ],
+        "variants":[
             "gold",
             "platinum",
             "silver",
@@ -53,8 +71,14 @@
     },
     {
         "name": "stone",
-        "multiplier": 3,
-        "types":[
+        "value_factor": 3,
+        "weight_factor": 9,
+        "modifiers":[
+            "quality",
+            "wear",
+            "composite"
+        ],
+        "variants":[
             "granite",
             "marble",
             "alabaster",
@@ -73,8 +97,15 @@
     },
     {
         "name": "cloth",
-        "multiplier": 2,
-        "types":[
+        "value_factor": 2,
+        "weight_factor": 1,
+        "modifiers":[
+            "quality",
+            "wear",
+            "textile",
+            "organic"
+        ],
+        "variants":[
             "cotton",
             "hempen cloth",
             "linen",
@@ -88,8 +119,15 @@
     },
     {
         "name": "gem",
-        "multiplier": 15,
-        "types":[
+        "value_factor": 15,
+        "weight_factor": 5,
+        "modifiers":[
+            "quality",
+            "wear",
+            "ceramic",
+            "composite"
+        ],
+        "variants":[
             "agate",
             "alexandrite",
             "amazonite",
@@ -127,8 +165,15 @@
     },
     {
         "name": "leather",
-        "multiplier": 3,
-        "types":[
+        "value_factor": 3,
+        "weight_factor": 2,
+        "modifiers":[
+            "quality",
+            "wear",
+            "organic",
+            "textile"
+        ],
+        "variants":[
             "calf leather",
             "deer leather",
             "crocodile leather",
@@ -139,9 +184,16 @@
         ]
     },
     {
-        "name": "skin",
-        "multiplier": 3,
-        "types":[
+        "name": "animal skin",
+        "value_factor": 3,
+        "weight_factor": 2,
+        "modifiers":[
+            "quality",
+            "wear",
+            "organic",
+            "textile"
+        ],
+        "variants":[
             "calfskin",
             "deerskin",
             "pig skin",

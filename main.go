@@ -9,20 +9,20 @@ import (
 	"github.com/gorilla/handlers"
 	"github.com/gorilla/mux"
 
-	"github.com/Henry-Sarabia/iltb"
+	"github.com/Henry-Sarabia/craft"
 	"github.com/go-chi/render"
 	"github.com/pkg/errors"
 )
 
 var (
-	factory = &iltb.Factory{}
+	resources = &craft.Resources{}
 )
 
 func init() {
 	var err error
-	factory, err = iltb.FromFiles("recipes.json", "materials.json", "contents.json", "classes.json")
+	resources, err = craft.LoadResources("templates.json", "classes.json", "materials.json", "details.json", "modifiers.json")
 	if err != nil {
-		log.Fatal(errors.Wrap(err, "valid files must be provided for initialization"))
+		log.Fatal(err)
 	}
 }
 
@@ -50,13 +50,12 @@ func main() {
 }
 
 func itemHandler(w http.ResponseWriter, r *http.Request) {
-	it, err := factory.Item()
+	i, err := resources.NewItem()
 	if err != nil {
 		http.Error(w, "cannot generate item", http.StatusInternalServerError)
-		return
 	}
 
-	render.JSON(w, r, it)
+	render.JSON(w, r, i)
 }
 
 // getPort returns the port from the $PORT environment variable as a string.

@@ -1,0 +1,96 @@
+[
+    {
+        "name": "figurine",
+        "item_class": "art",
+        "base_value": 10,
+        "base_weight": 1,
+        "aliases":[
+            "figure",
+            "statuette",
+            "effigy"
+        ],
+        "material_variants":[
+            "precious metal",
+            "wood",
+            "gem",
+            "stone"
+        ],
+        "detail_variants":[
+            "beast",
+            "monstrosity"
+        ]
+    },
+    {
+        "name": "wineskin",
+        "item_class": "liquid container",
+        "base_value": 0.5,
+        "base_weight": 0.5,
+        "aliases":[
+            "waterskin",
+            "bota bag",
+            "colambre",
+            "canteen"
+        ],
+        "material_variants":[
+            "leather",
+            "animal skin"
+        ],
+        "detail_variants":[
+            "beverage"
+        ]
+    },
+    {
+        "name": "flask",
+        "item_class": "liquid container",
+        "base_value": 1,
+        "base_weight": 0.2,
+        "aliases":[
+            "decanter"
+        ],
+        "material_variants":[
+            "base metal",
+            "precious metal"
+        ],
+        "detail_variants":[
+            "beverage"
+        ]
+    },
+    {
+        "name": "ring",
+        "item_class": "jewelry",
+        "base_value": 3,
+        "base_weight": 0.05,
+        "aliases":[
+            "memorial ring",
+            "wedding ring",
+            "wedding band",
+            "signet ring",
+            "thumb ring"
+        ],
+        "material_variants":[
+            "precious metal",
+            "wood"
+        ],
+        "detail_variants":[
+            "engraving"
+        ]
+    },
+    {
+        "name": "doll",
+        "item_class": "art",
+        "base_value": 0.2,
+        "base_weight": 0.3,
+        "aliases":[
+            "toy puppet",
+            "toy figurine"
+        ],
+        "material_variants":[
+            "cloth",
+            "wood"
+        ],
+        "detail_variants":[
+            "beast",
+            "humanoid"
+        ]
+    }
+]
