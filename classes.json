@@ -44,5 +44,15 @@
             "embellished with",
             "decorated with"
         ]
+    },
+    {
+        "name": "card",
+        "format": "<article> <quality> <name> <verb> <article> <detail>",
+        "example": "<a> <slightly soiled> <deck of cards> <filled with drawings of> <an> <androsphinx>",
+        "verb_variants":[
+            "full of interesting depictions of",
+            "filled with awkward drawings of",
+            "full of lifelike imagery of"
+        ]
     }
 ]

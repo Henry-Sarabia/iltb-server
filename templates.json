@@ -92,5 +92,20 @@
             "beast",
             "humanoid"
         ]
+    },
+    {
+        "name": "deck of cards",
+        "item_class": "deck",
+        "base_value": 0.1,
+        "base_weight": 0.2,
+        "aliases":[
+            "deck of tarot cards",
+            "deck of playing cards"
+        ],
+        "detail_variants":[
+            "beast",
+            "monstrosity",
+            "humanoid"
+        ]
     }
 ]

@@ -3,8 +3,8 @@
         "name": "wood",
         "value_factor": 1,
         "weight_factor": 3,
-        "modifiers":[
-            "quality",
+        "qualities":[
+            "craftsmanship",
             "wear",
             "organic"
         ],
@@ -33,8 +33,8 @@
         "name": "base metal",
         "value_factor": 5,
         "weight_factor": 10,
-        "modifiers":[
-            "quality",
+        "qualities":[
+            "craftsmanship",
             "wear",
             "metal"
         ],
@@ -54,8 +54,8 @@
         "name": "precious metal",
         "value_factor": 10,
         "weight_factor": 8,
-        "modifiers":[
-            "quality",
+        "qualities":[
+            "craftsmanship",
             "wear",
             "metal"
         ],
@@ -73,8 +73,8 @@
         "name": "stone",
         "value_factor": 3,
         "weight_factor": 9,
-        "modifiers":[
-            "quality",
+        "qualities":[
+            "craftsmanship",
             "wear",
             "composite"
         ],
@@ -99,8 +99,8 @@
         "name": "cloth",
         "value_factor": 2,
         "weight_factor": 1,
-        "modifiers":[
-            "quality",
+        "qualities":[
+            "craftsmanship",
             "wear",
             "textile",
             "organic"
@@ -121,8 +121,8 @@
         "name": "gem",
         "value_factor": 15,
         "weight_factor": 5,
-        "modifiers":[
-            "quality",
+        "qualities":[
+            "craftsmanship",
             "wear",
             "ceramic",
             "composite"
@@ -167,8 +167,8 @@
         "name": "leather",
         "value_factor": 3,
         "weight_factor": 2,
-        "modifiers":[
-            "quality",
+        "qualities":[
+            "craftsmanship",
             "wear",
             "organic",
             "textile"
@@ -187,8 +187,8 @@
         "name": "animal skin",
         "value_factor": 3,
         "weight_factor": 2,
-        "modifiers":[
-            "quality",
+        "qualities":[
+            "craftsmanship",
             "wear",
             "organic",
             "textile"

@@ -20,7 +20,7 @@ var (
 
 func init() {
 	var err error
-	resources, err = craft.LoadResources("templates.json", "classes.json", "materials.json", "details.json", "modifiers.json")
+	resources, err = craft.LoadResources("templates.json", "classes.json", "materials.json", "qualities.json", "details.json")
 	if err != nil {
 		log.Fatal(err)
 	}
