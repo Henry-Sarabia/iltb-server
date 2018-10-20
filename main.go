@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"log"
 	"net/http"
 	"os"
@@ -15,12 +16,12 @@ import (
 )
 
 var (
-	resources = &craft.Resources{}
+	crafter = &craft.Crafter{}
 )
 
 func init() {
 	var err error
-	resources, err = craft.LoadResources("templates.json", "classes.json", "materials.json", "qualities.json", "details.json")
+	crafter, err = craft.NewFromFiles("templates.json", "classes.json", "materials.json", "qualities.json", "details.json")
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -50,11 +51,13 @@ func main() {
 }
 
 func itemHandler(w http.ResponseWriter, r *http.Request) {
-	i, err := resources.NewItem()
+	i, err := crafter.NewItem()
 	if err != nil {
 		http.Error(w, "cannot generate item", http.StatusInternalServerError)
+		log.Println(err)
 	}
-
+	fmt.Println(i)
+	fmt.Println(i.Description)
 	render.JSON(w, r, i)
 }
 

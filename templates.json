@@ -15,9 +15,14 @@
             "gem",
             "stone"
         ],
-        "detail_variants":[
-            "beast",
-            "monstrosity"
+        "detail_variants": [
+            {
+                "label": "shape",
+                "variants":[
+                    "beast",
+                    "monstrosity"
+                ]
+            }
         ]
     },
     {
@@ -35,8 +40,13 @@
             "leather",
             "animal skin"
         ],
-        "detail_variants":[
-            "beverage"
+        "detail_variants": [
+            {
+                "label": "contents",
+                "variants":[
+                    "beverage"
+                ]
+            }
         ]
     },
     {
@@ -51,8 +61,13 @@
             "base metal",
             "precious metal"
         ],
-        "detail_variants":[
-            "beverage"
+        "detail_variants": [
+            {
+                "label": "contents",
+                "variants":[
+                    "beverage"
+                ]
+            }
         ]
     },
     {
@@ -71,8 +86,13 @@
             "precious metal",
             "wood"
         ],
-        "detail_variants":[
-            "engraving"
+        "detail_variants": [
+            {
+                "label": "decoration",
+                "variants":[
+                    "engraving"
+                ]
+            }
         ]
     },
     {
@@ -88,24 +108,14 @@
             "cloth",
             "wood"
         ],
-        "detail_variants":[
-            "beast",
-            "humanoid"
-        ]
-    },
-    {
-        "name": "deck of cards",
-        "item_class": "deck",
-        "base_value": 0.1,
-        "base_weight": 0.2,
-        "aliases":[
-            "deck of tarot cards",
-            "deck of playing cards"
-        ],
-        "detail_variants":[
-            "beast",
-            "monstrosity",
-            "humanoid"
+        "detail_variants": [
+            {
+                "label": "shape",
+                "variants":[
+                    "beast",
+                    "humanoid"
+                ]
+            }
         ]
     }
 ]

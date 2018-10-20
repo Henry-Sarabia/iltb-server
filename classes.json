@@ -1,7 +1,7 @@
 [
     {
         "name": "art",
-        "format": "<article> <quality> <material> <name> <verb> <article> <detail>",
+        "format": "<article> <quality> <material> <name> <verb> <article> <shape>",
         "example": "<an> <ironwood> <statue> <crafted in the likeness of> <an> <eagle>",
         "verb_variants":[
             "crafted in the likeness of",
@@ -16,7 +16,7 @@
     },
     {
         "name": "liquid container",
-        "format": "<article> <quality> <material> <name> <verb> <detail>",
+        "format": "<article> <quality> <material> <name> <verb> <contents>",
         "example": "<a> <calf leather> <wineskin> <half full of> <mulled ale>",
         "verb_variants":[
             "filled with",
@@ -34,7 +34,7 @@
     },
     {
         "name": "jewelry",
-        "format": "<article> <quality> <material> <name> <verb> <detail>",
+        "format": "<article> <quality> <material> <name> <verb> <decoration>",
         "example": "<a> <rose gold> <wedding ring> <adorned with> <elven engravings>",
         "verb_variants":[
             "adorned with",
@@ -43,16 +43,6 @@
             "with hints of",
             "embellished with",
             "decorated with"
-        ]
-    },
-    {
-        "name": "card",
-        "format": "<article> <quality> <name> <verb> <article> <detail>",
-        "example": "<a> <slightly soiled> <deck of cards> <filled with drawings of> <an> <androsphinx>",
-        "verb_variants":[
-            "full of interesting depictions of",
-            "filled with awkward drawings of",
-            "full of lifelike imagery of"
         ]
     }
 ]
