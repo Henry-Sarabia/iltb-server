@@ -2,6 +2,9 @@
     {
         "name": "figurine",
         "item_class": "art",
+        "configurations":[
+            "shaped"
+        ],
         "base_value": 10,
         "base_weight": 1,
         "aliases":[
@@ -28,6 +31,9 @@
     {
         "name": "wineskin",
         "item_class": "liquid container",
+        "configurations":[
+            "filled"
+        ],
         "base_value": 0.5,
         "base_weight": 0.5,
         "aliases":[
@@ -52,6 +58,9 @@
     {
         "name": "flask",
         "item_class": "liquid container",
+        "configurations":[
+            "filled"
+        ],
         "base_value": 1,
         "base_weight": 0.2,
         "aliases":[
@@ -73,6 +82,11 @@
     {
         "name": "ring",
         "item_class": "jewelry",
+        "configurations":[
+            "simple",
+            "encrusted",
+            "engraved"
+            ],
         "base_value": 3,
         "base_weight": 0.05,
         "aliases":[
@@ -80,6 +94,7 @@
             "memorial ring",
             "wedding ring",
             "wedding band",
+            "promise ring",
             "signet ring",
             "thumb ring"
         ],
@@ -109,8 +124,84 @@
         ]
     },
     {
+        "name": "bracelet",
+        "item_class": "jewelry",
+        "configurations":[
+            "simple",
+            "encrusted",
+            "engraved"
+        ],
+        "base_value": 5,
+        "base_weight": 0.1,
+        "aliases":[
+            "bracelet",
+            "bangle",
+            "bangle bracelet",
+            "link bracelet",
+            "friendship bracelet",
+            "ornamental bracelet",
+            "wristlet",
+            "ankle bracelet",
+            "anklet"
+        ],
+        "material_variants":[
+            "precious metal",
+            "base metal",
+            "leather"
+        ],
+        "detail_variants": [
+            {
+                "label": "gemstone",
+                "variants":[
+                    "gemstone"
+                ]
+            },
+            {
+                "label": "language",
+                "variants":[
+                    "language"
+                ]
+            },
+            {
+                "label": "inscription",
+                "variants":[
+                    "inscription"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "necklace",
+        "item_class": "jewelry",
+        "configurations":[
+            "simple",
+            "encrusted"
+        ],
+        "base_value": 10,
+        "base_weight": 0.15,
+        "aliases":[
+            "necklace",
+            "choker",
+            "princess necklace",
+            "matinee necklace",
+            "opera necklace",
+            "lariat necklace"
+        ],
+        "detail_variants": [
+            {
+                "label": "gemstone",
+                "variants":[
+                    "gemstone"
+                ]
+            }
+        ]
+    },
+    {
         "name": "doll",
         "item_class": "art",
+        "configurations":[
+            "shaped"
+        ],
         "base_value": 0.2,
         "base_weight": 0.3,
         "aliases":[
@@ -134,6 +225,9 @@
     {
         "name": "harmonica",
         "item_class": "instrument",
+        "configurations":[
+            "engraved"
+        ],
         "base_value": 5,
         "base_weight": 0.2,
         "aliases":[

@@ -20,6 +20,7 @@ var (
 	crafter = &craft.Crafter{}
 )
 
+// ItemWrapper wraps a craft.Item object and assigns it a unique ID.
 type ItemWrapper struct {
 	Item *craft.Item `json:"item"`
 	ID   string      `json:"id"`

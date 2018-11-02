@@ -3,6 +3,7 @@
         "name": "art",
         "configurations":[
             {
+                "name": "shaped",
                 "format": "<article> <quality> <material> <name> <verb> <article> <shape>",
                 "example": "<an> <ironwood> <statue> <crafted in the likeness of> <an> <eagle>",
                 "verb_variants":[
@@ -23,6 +24,7 @@
         "name": "liquid container",
         "configurations":[
             {
+                "name": "filled",
                 "format": "<article> <quality> <material> <name> <verb> <contents>",
                 "example": "<a> <calf leather> <wineskin> <half full of> <mulled ale>",
                 "verb_variants":[
@@ -46,6 +48,18 @@
         "name": "jewelry",
         "configurations":[
             {
+                "name": "simple",
+                "format": "<article> <quality> <name> <verb> <material>",
+                "example": "<a> <slightly rusted> <necklace> <made of> <bronze>",
+                "verb_variants":[
+                    "made of",
+                    "made out of",
+                    "of",
+                    "made from"
+                ]
+            },
+            {
+                "name": "encrusted",
                 "format": "<article> <quality> <material> <name> <verb> <gemstone>",
                 "example": "<a> <rose gold> <wedding ring> <studded with> <rubies>",
                 "verb_variants":[
@@ -62,6 +76,7 @@
                 ]
             },
             {
+                "name": "engraved",
                 "format": "<article> <quality> <material> <name> <verb> <language> <inscription>",
                 "example": "<a> <rose gold> <wedding ring> <adorned with> <elven> <engravings>",
                 "verb_variants":[
@@ -80,6 +95,7 @@
         "name": "instrument",
         "configurations":[
             {
+                "name": "engraved",
                 "format": "<article> <quality> <material> <name> <verb> <language> <inscription>",
                 "example": "<an> <expertly crafted> <silver> <harmonica> <decorated with> <infernal> <runes>",
                 "verb_variants":[
