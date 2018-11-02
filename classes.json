@@ -1,48 +1,97 @@
 [
     {
         "name": "art",
-        "format": "<article> <quality> <material> <name> <verb> <article> <shape>",
-        "example": "<an> <ironwood> <statue> <crafted in the likeness of> <an> <eagle>",
-        "verb_variants":[
-            "crafted in the likeness of",
-            "made to resemble",
-            "built to look like",
-            "designed like",
-            "formed like",
-            "shaped as",
-            "shaped like",
-            "resembling"
+        "configurations":[
+            {
+                "format": "<article> <quality> <material> <name> <verb> <article> <shape>",
+                "example": "<an> <ironwood> <statue> <crafted in the likeness of> <an> <eagle>",
+                "verb_variants":[
+                    "crafted in the likeness of",
+                    "made to resemble",
+                    "built to look like",
+                    "designed like",
+                    "formed like",
+                    "shaped as",
+                    "shaped like",
+                    "resembling",
+                    "cast in the form of"
+                ]
+            }
         ]
     },
     {
         "name": "liquid container",
-        "format": "<article> <quality> <material> <name> <verb> <contents>",
-        "example": "<a> <calf leather> <wineskin> <half full of> <mulled ale>",
-        "verb_variants":[
-            "filled with",
-            "full of",
-            "almost filled with",
-            "almost full of",
-            "half full of",
-            "half filled with",
-            "containing",
-            "barely containing",
-            "nearly rid of",
-            "faintly smelling of",
-            "faintly smelling like"
+        "configurations":[
+            {
+                "format": "<article> <quality> <material> <name> <verb> <contents>",
+                "example": "<a> <calf leather> <wineskin> <half full of> <mulled ale>",
+                "verb_variants":[
+                    "filled with",
+                    "full of",
+                    "nearly filled with",
+                    "nearly full of",
+                    "half full of",
+                    "half filled with",
+                    "containing",
+                    "barely containing",
+                    "nearly rid of",
+                    "faintly smelling of",
+                    "with a bit of remaining",
+                    "filled with the dregs of"
+                ]
+            }
         ]
     },
     {
         "name": "jewelry",
-        "format": "<article> <quality> <material> <name> <verb> <decoration>",
-        "example": "<a> <rose gold> <wedding ring> <adorned with> <elven engravings>",
-        "verb_variants":[
-            "adorned with",
-            "designed with",
-            "crafted with",
-            "with hints of",
-            "embellished with",
-            "decorated with"
+        "configurations":[
+            {
+                "format": "<article> <quality> <material> <name> <verb> <gemstone>",
+                "example": "<a> <rose gold> <wedding ring> <studded with> <rubies>",
+                "verb_variants":[
+                    "set with",
+                    "studded with",
+                    "studden in",
+                    "covered with",
+                    "covered in",
+                    "speckled with",
+                    "encrusted with",
+                    "encrusted in",
+                    "embellished with",
+                    "decorated with"
+                ]
+            },
+            {
+                "format": "<article> <quality> <material> <name> <verb> <language> <inscription>",
+                "example": "<a> <rose gold> <wedding ring> <adorned with> <elven> <engravings>",
+                "verb_variants":[
+                    "inscribed with",
+                    "adorned with",
+                    "embellished with",
+                    "decorated with",
+                    "designed with",
+                    "engraved with",
+                    "with hints of"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "instrument",
+        "configurations":[
+            {
+                "format": "<article> <quality> <material> <name> <verb> <language> <inscription>",
+                "example": "<an> <expertly crafted> <silver> <harmonica> <decorated with> <infernal> <runes>",
+                "verb_variants":[
+                    "inscribed with",
+                    "adorned with",
+                    "embellished with",
+                    "decorated with",
+                    "designed with",
+                    "engraved with",
+                    "with hints of"
+                ]
+            }
         ]
     }
 ]

@@ -76,6 +76,7 @@
         "base_value": 3,
         "base_weight": 0.05,
         "aliases":[
+            "ring",
             "memorial ring",
             "wedding ring",
             "wedding band",
@@ -88,9 +89,21 @@
         ],
         "detail_variants": [
             {
-                "label": "decoration",
+                "label": "gemstone",
                 "variants":[
-                    "engraving"
+                    "gemstone"
+                ]
+            },
+            {
+                "label": "language",
+                "variants":[
+                    "language"
+                ]
+            },
+            {
+                "label": "inscription",
+                "variants":[
+                    "inscription"
                 ]
             }
         ]
@@ -114,6 +127,37 @@
                 "variants":[
                     "beast",
                     "humanoid"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "harmonica",
+        "item_class": "instrument",
+        "base_value": 5,
+        "base_weight": 0.2,
+        "aliases":[
+            "harmonica",
+            "french harp",
+            "mouth organ",
+            "pitch pipe"
+        ],
+        "material_variants":[
+            "base metal",
+            "precious metal",
+            "wood"
+        ],
+        "detail_variants":[
+            {
+                "label": "language",
+                "variants":[
+                    "language"
+                ]
+            },
+            {
+                "label": "inscription",
+                "variants":[
+                    "inscription"
                 ]
             }
         ]
