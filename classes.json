@@ -7,15 +7,31 @@
                 "format": "<article> <quality> <material> <name> <verb> <article> <shape>",
                 "example": "<an> <ironwood> <statue> <crafted in the likeness of> <an> <eagle>",
                 "verb_variants":[
+                    "crafted like",
                     "crafted in the likeness of",
+                    "crafted to look like",
+                    "crafted to resemble",
+                    "crafted in the form of",
+                    "made in the likeness of",
+                    "made to look like",
                     "made to resemble",
+                    "made in the form of",
+                    "built like",
+                    "built in the likeness of",
                     "built to look like",
+                    "built to resemble",
                     "designed like",
-                    "formed like",
-                    "shaped as",
+                    "designed to look like",
+                    "designed to resemble",
                     "shaped like",
+                    "shaped to look like",
+                    "shaped to resemble",
+                    "fashioned in the likeness of",
+                    "fashioned to look like",
+                    "fashioned after",
                     "resembling",
-                    "cast in the form of"
+                    "cast in the form of",
+                    "in the form of"
                 ]
             }
         ]
@@ -54,8 +70,11 @@
                 "verb_variants":[
                     "made of",
                     "made out of",
+                    "made from",
                     "of",
-                    "made from"
+                    "built out of",
+                    "crafted out of",
+                    "fashioned out of"
                 ]
             },
             {
@@ -80,6 +99,7 @@
                 "format": "<article> <quality> <material> <name> <verb> <language> <inscription>",
                 "example": "<a> <rose gold> <wedding ring> <adorned with> <elven> <engravings>",
                 "verb_variants":[
+                    "with",
                     "inscribed with",
                     "adorned with",
                     "embellished with",
@@ -87,6 +107,19 @@
                     "designed with",
                     "engraved with",
                     "with hints of"
+                ]
+            },
+            {
+                "name": "ornamented",
+                "format": "<article> <quality> <material> <name> <verb> <article> <gemstone> <ornament>",
+                "example": "<a> <well crafted> <brass> <necklace> <adorned with> <an> <emerald> <locket>",
+                "verb_variants":[
+                    "with",
+                    "adorned with",
+                    "decorated with",
+                    "embellished with",
+                    "fashioned with",
+                    "designed with"
                 ]
             }
         ]

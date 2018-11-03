@@ -31,7 +31,7 @@
     },
     {
         "name": "base metal",
-        "value_factor": 5,
+        "value_factor": 7,
         "weight_factor": 10,
         "qualities":[
             "craftsmanship",
@@ -52,7 +52,7 @@
     },
     {
         "name": "precious metal",
-        "value_factor": 10,
+        "value_factor": 12,
         "weight_factor": 8,
         "qualities":[
             "craftsmanship",
@@ -201,6 +201,44 @@
             "snake skin",
             "elk skin",
             "buckskin"
+        ]
+    },
+    {
+        "name": "ivory",
+        "value_factor": 9,
+        "weight_factor": 3,
+        "qualities":[
+            "craftsmanship",
+            "wear",
+            "organic",
+            "composite",
+            "ceramic"
+        ],
+        "variants":[
+            "elephant ivory",
+            "mammoth ivory",
+            "walrus ivory",
+            "narwhal ivory",
+            "boar ivory",
+            "hippo ivory",
+            "orc ivory"
+        ]
+    },
+    {
+        "name": "bone",
+        "value_factor": 4,
+        "weight_factor": 2,
+        "qualities":[
+            "craftsmanship",
+            "wear",
+            "organic",
+            "composite",
+            "ceramic"
+        ],
+        "variants":[
+            "bone",
+            "animal bone",
+            "humanoid bone"
         ]
     }
 ]

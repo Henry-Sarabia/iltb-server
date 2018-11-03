@@ -14,6 +14,9 @@
         ],
         "material_variants":[
             "precious metal",
+            "base metal",
+            "ivory",
+            "bone",
             "wood",
             "gem",
             "stone"
@@ -23,7 +26,8 @@
                 "label": "shape",
                 "variants":[
                     "beast",
-                    "monstrosity"
+                    "monstrosity",
+                    "humanoid"
                 ]
             }
         ]
@@ -100,7 +104,10 @@
         ],
         "material_variants":[
             "precious metal",
-            "wood"
+            "base metal",
+            "wood",
+            "ivory",
+            "bone"
         ],
         "detail_variants": [
             {
@@ -129,7 +136,8 @@
         "configurations":[
             "simple",
             "encrusted",
-            "engraved"
+            "engraved",
+            "ornamented"
         ],
         "base_value": 5,
         "base_weight": 0.1,
@@ -147,7 +155,8 @@
         "material_variants":[
             "precious metal",
             "base metal",
-            "leather"
+            "leather",
+            "ivory"
         ],
         "detail_variants": [
             {
@@ -167,6 +176,12 @@
                 "variants":[
                     "inscription"
                 ]
+            },
+            {
+                "label": "ornament",
+                "variants":[
+                    "ornament"
+                ]
             }
         ]
     },
@@ -175,7 +190,8 @@
         "item_class": "jewelry",
         "configurations":[
             "simple",
-            "encrusted"
+            "encrusted",
+            "ornamented"
         ],
         "base_value": 10,
         "base_weight": 0.15,
@@ -187,11 +203,22 @@
             "opera necklace",
             "lariat necklace"
         ],
+        "material_variants":[
+            "precious metal",
+            "base metal",
+            "ivory"
+        ],
         "detail_variants": [
             {
                 "label": "gemstone",
                 "variants":[
                     "gemstone"
+                ]
+            },
+            {
+                "label": "ornament",
+                "variants":[
+                    "ornament"
                 ]
             }
         ]
