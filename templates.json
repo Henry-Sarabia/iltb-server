@@ -8,6 +8,7 @@
         "base_value": 10,
         "base_weight": 1,
         "aliases":[
+            "figurine",
             "figure",
             "statuette",
             "effigy"
@@ -34,13 +35,14 @@
     },
     {
         "name": "wineskin",
-        "item_class": "liquid container",
+        "item_class": "drink",
         "configurations":[
             "filled"
         ],
         "base_value": 0.5,
         "base_weight": 0.5,
         "aliases":[
+            "wineskin",
             "waterskin",
             "bota bag",
             "colambre",
@@ -61,14 +63,18 @@
     },
     {
         "name": "flask",
-        "item_class": "liquid container",
+        "item_class": "drink",
         "configurations":[
             "filled"
         ],
         "base_value": 1,
         "base_weight": 0.2,
         "aliases":[
-            "decanter"
+            "flask",
+            "hip flask",
+            "kidney flask",
+            "decanter",
+            "canteen"
         ],
         "material_variants":[
             "base metal",
@@ -232,6 +238,7 @@
         "base_value": 0.2,
         "base_weight": 0.3,
         "aliases":[
+            "doll",
             "toy puppet",
             "toy figurine"
         ],

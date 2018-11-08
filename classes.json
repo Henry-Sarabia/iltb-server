@@ -37,7 +37,7 @@
         ]
     },
     {
-        "name": "liquid container",
+        "name": "drink",
         "configurations":[
             {
                 "name": "filled",
@@ -52,7 +52,6 @@
                     "half filled with",
                     "containing",
                     "barely containing",
-                    "nearly rid of",
                     "faintly smelling of",
                     "with a bit of remaining",
                     "filled with the dregs of"
