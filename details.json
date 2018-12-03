@@ -1,21 +1,96 @@
 [
     {
-        "name": "beverage",
+        "name": "water",
         "variants":[
-            "water",
-            "milk",
-            "barley tea",
+            "clean water",
+            "purified water",
+            "dirty water",
+            "salt water",
+            "sea water",
             "sage water",
             "rose water",
-            "apple cider",
-            "ale",
+            "bubbling water"
+        ]
+    },
+    {
+        "name": "tea",
+        "variants":[
+            "barley tea",
+            "lemon tea",
+            "mint tea",
+            "peppermint tea",
+            "rosemary tea",
+            "sage tea",
+            "chamomile tea",
+            "lavendar tea",
+            "rose tea",
+            "frankincense tea"
+        ]
+    },
+    {
+        "name": "wine",
+        "variants": [
             "spiced wine",
             "mulled wine",
-            "white wine",
-            "gold wine",
             "red wine",
-            "mead",
-            "mulled mead"
+            "gold wine",
+            "white wine",
+            "rose wine",
+            "barley wine",
+            "rice wine"
+        ]
+    },
+    {
+        "name": "mead",
+        "variants":[
+            "red mead",
+            "blue mead",
+            "black mead",
+            "white mead",
+            "mulled mead",
+            "short mead",
+            "great mead",
+            "sack mead"
+        ]
+    },
+    {
+        "name": "milk",
+        "variants":[
+            "milk",
+            "buffalo milk",
+            "bison milk",
+            "goat milk",
+            "sheep milk"
+        ]
+    },
+    {
+        "name": "ale",
+        "variants":[
+            "weak ale",
+            "mild ale",
+            "ordinary ale",
+            "strong ale",
+            "spiced ale",
+            "small-ale"
+        ]
+    },
+    {
+        "name": "beer",
+        "variants":[
+            "small beer",
+            "table beer",
+            "weak beer",
+            "small-ale"
+        ]
+    },
+    {
+        "name": "cider",
+        "variants":[
+            "apple cider",
+            "applewine",
+            "ice cider",
+            "white cider",
+            "black cider"
         ]
     },
     {

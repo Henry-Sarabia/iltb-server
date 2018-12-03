@@ -11,7 +11,8 @@
             "figurine",
             "figure",
             "statuette",
-            "effigy"
+            "effigy",
+            "idol"
         ],
         "material_variants":[
             "precious metal",
@@ -56,7 +57,13 @@
             {
                 "label": "contents",
                 "variants":[
-                    "beverage"
+                    "water",
+                    "tea",
+                    "wine",
+                    "mead",
+                    "ale",
+                    "beer",
+                    "cider"
                 ]
             }
         ]
@@ -84,7 +91,82 @@
             {
                 "label": "contents",
                 "variants":[
-                    "beverage"
+                    "water",
+                    "tea",
+                    "wine",
+                    "mead",
+                    "ale",
+                    "beer",
+                    "cider"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "drinking horn",
+        "item_class": "drink",
+        "configurations":[
+            "filled"
+        ],
+        "base_value": 2,
+        "base_weight": 0.5,
+        "aliases":[
+            "drinking horn"
+        ],
+        "material_variants":[
+            "ivory",
+            "bone"
+        ],
+        "detail_variants":[
+            {
+                "label": "contents",
+                "variants":[
+                    "water",
+                    "tea",
+                    "wine",
+                    "mead",
+                    "milk",
+                    "ale",
+                    "beer",
+                    "cider"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "tankard",
+        "item_class": "drink",
+        "configurations":[
+            "filled"
+        ],
+        "base_value": 0.5,
+        "base_weight": 0.4,
+        "aliases":[
+            "tankard",
+            "stein",
+            "cup",
+            "mug",
+            "flagon"
+        ],
+        "material_variants":[
+            "base metal",
+            "wood",
+            "ivory",
+            "precious metal",
+            "stone"
+        ],
+        "detail_variants": [
+            {
+                "label": "contents",
+                "variants":[
+                    "water",
+                    "tea",
+                    "wine",
+                    "mead",
+                    "milk",
+                    "ale",
+                    "beer",
+                    "cider"
                 ]
             }
         ]
@@ -274,6 +356,43 @@
             "base metal",
             "precious metal",
             "wood"
+        ],
+        "detail_variants":[
+            {
+                "label": "language",
+                "variants":[
+                    "language"
+                ]
+            },
+            {
+                "label": "inscription",
+                "variants":[
+                    "inscription"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "flute",
+        "item_class": "instrument",
+        "configurations":[
+            "engraved"
+        ],
+        "base_value": 10,
+        "base_weight": 0.4,
+        "aliases":[
+            "flute",
+            "alto flute",
+            "oboe",
+            "clarinet",
+            "recorder",
+            "pipe",
+            "shawm"
+        ],
+        "material_variants":[
+            "wood",
+            "ivory",
+            "precious metal"
         ],
         "detail_variants":[
             {
