@@ -40,6 +40,19 @@
         "name": "drink",
         "configurations":[
             {
+                "name": "simple",
+                "format": "<article> <quality> <name> <verb> <material>",
+                "example": "<a> <completely cracked> <drinking horn> <made from> <ivory>",
+                "verb_variants":[
+                    "made of",
+                    "made out of",
+                    "made from",
+                    "built out of",
+                    "crafted out of",
+                    "fashioned out of"
+                ]
+            },
+            {
                 "name": "filled",
                 "format": "<article> <quality> <material> <name> <verb> <contents>",
                 "example": "<a> <calf leather> <wineskin> <half full of> <mulled ale>",
@@ -127,6 +140,19 @@
         "name": "instrument",
         "configurations":[
             {
+                "name": "simple",
+                "format": "<article> <quality> <name> <verb> <material>",
+                "example": "<a> <bent> <flute> <made of> <silver>",
+                "verb_variants":[
+                    "made of",
+                    "made out of",
+                    "made from",
+                    "built out of",
+                    "crafted out of",
+                    "fashioned out of"
+                ]
+            },
+            {
                 "name": "engraved",
                 "format": "<article> <quality> <material> <name> <verb> <language> <inscription>",
                 "example": "<an> <expertly crafted> <silver> <harmonica> <decorated with> <infernal> <runes>",
@@ -138,6 +164,37 @@
                     "designed with",
                     "engraved with",
                     "with hints of"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "container",
+        "configurations":[
+            {
+                "name": "simple",
+                "format": "<article> <quality> <name> <verb> <material>",
+                "example": "<a> <heavily charred> <box> <built from> <elm wood>",
+                "verb_variants":[
+                    "made of",
+                    "made out of",
+                    "made from",
+                    "built out of",
+                    "built from",
+                    "crafted out of",
+                    "fashioned out of"
+                ]
+            },
+            {
+                "name": "filled",
+                "format": "<article> <quality> <material> <name> <verb> <content>",
+                "example": "<a> <scratched> <rosewood> <cigar box> <filled with> <finger bones>",
+                "verb_variants":[
+                    "filled with",
+                    "full of",
+                    "containing",
+                    "enclosed with",
+                    "holding"
                 ]
             }
         ]
